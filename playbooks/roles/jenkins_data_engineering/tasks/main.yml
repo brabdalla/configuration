@@ -11,6 +11,16 @@
   tags:
   - jenkins
 
+- name: Create /edx/var/edxapp dir
+  file:
+    path: "/edx/var/edxapp"
+    state: directory
+    owner: "{{ jenkins_user }}"
+    group: "{{ jenkins_group }}"
+    mode: 0755
+  tags:
+    - jenkins-edxapp
+
 - name: create directory
   file:
     path: "/home/{{ jenkins_user }}/.ssh"

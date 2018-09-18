@@ -193,7 +193,7 @@ analytics_jenkins_plugins_list:
     version: '1.5'
     group: 'org.jenkins-ci.plugins'
   - name: 'ssh-credentials'
-    version: '1.13'
+    version: '1.14'
     group: 'org.jenkins-ci.plugins'
   - name: 'ssh-slaves'
     version: '1.9'
